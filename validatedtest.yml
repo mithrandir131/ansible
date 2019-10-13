@@ -1,8 +1,0 @@
-﻿---
-- name: yum update
-  hosts: centosvms
-  taks:
-    - name: update
-      yum:
-       name: '*'
-       state: latest
