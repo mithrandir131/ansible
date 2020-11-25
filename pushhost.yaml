@@ -1,7 +1,0 @@
----
-- hosts: centosvms
-  tasks:
-  - name: Ansible copy hosts file to all remote server
-    copy:
-      src: /etc/hosts
-      dest: /etc
